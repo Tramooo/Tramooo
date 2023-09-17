@@ -104,6 +104,11 @@ a{
     transform:translate(0, -50%);
     z-index: 0;
 }
+@media screen and (max-width:600px){
+    .container{
+        margin-top:30px;
+    }
+}
 .img1{
     height: 100%;
     width: 100%;
