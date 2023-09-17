@@ -218,6 +218,8 @@ a{
     z-index: 0;
     position:absolute;
     margin-top: 100px;
+    height: 800px;
+    width: 1000px;
 }
 .foto{
     position: absolute;
