@@ -36,7 +36,7 @@ body{
     height: 100%;
     width: 0;
     background-color: black;
-    position: absolute;
+    position: fixed;
     z-index: 1;
     display: block;
     -webkit-transition: .5s;

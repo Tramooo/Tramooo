@@ -4,6 +4,7 @@ function openmenu(){
     document.getElementById("list").style.display = "block";
     document.getElementById("container").style.display = "none";
     document.body.style.overflowX = "hidden";
+    document.body.style.overflowY = "hidden";
 }
 function closemenu(){
     document.getElementById("sidemenu").style.width = "0";
@@ -11,4 +12,5 @@ function closemenu(){
     document.getElementById("list").style.display = "none";
     document.getElementById("container").style.display = "inline-flex";
     document.body.style.overflowX = "scroll";
+    document.body.style.overflowY = "scroll";
 }

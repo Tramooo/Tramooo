@@ -8,7 +8,19 @@
 </head>
 <body>
     <img src="images\2812.jpg" alt="">
-    <div class="container">
+    <div class="navbar">
+        <h1>Itinerario Giappone</h1>
+        <button id="button" type="menu" onclick="openmenu()">≡</button>
+    </div>
+    <div class="sidemenu" id="sidemenu">
+        <button id="closemenu" onclick="closemenu()">x</button>
+        <div class="list" id="list">
+            <a href="index.html">HOME</a>
+            <a href="foto.html">FOTO DEL VIAGGIO</a>
+            <a href="cacato.html">CACATO NEL PUZZO</a>
+        </div>
+    </div>
+    <div class="container" id="container">
         <h1> Kyoto 29/12</h1>
         <h2>
             Treno per Kyoto
@@ -56,4 +68,5 @@
         </div>
     </div>
 </body>
+<script src="frontpagescripts.js"></script>
 </html>
